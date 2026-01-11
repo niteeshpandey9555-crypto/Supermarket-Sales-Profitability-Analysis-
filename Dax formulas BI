@@ -1,0 +1,11 @@
+
+​Total Sales:
+Total Sales = SUM('SuperMarket'[Sales])
+​Total Gross Income:
+Total Gross Income = SUM('SuperMarket'[gross_income])
+​Profit Margin %:
+Profit Margin % = DIVIDE([Total Gross Income], [Total Sales], 0)
+​Average Rating:
+Avg Rating = AVERAGE('SuperMarket'[Rating])
+​Transaction Count:
+Total Transactions = COUNTROWS
